@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18A186771470C25600F4340C /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A186761470C25600F4340C /* image.png */; };
 		18B7FD43146FBA0700B6940E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B7FD42146FBA0700B6940E /* UIKit.framework */; };
 		18B7FD45146FBA0700B6940E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B7FD44146FBA0700B6940E /* Foundation.framework */; };
 		18B7FD47146FBA0700B6940E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B7FD46146FBA0700B6940E /* CoreGraphics.framework */; };
@@ -15,22 +16,27 @@
 		18B7FD53146FBA0700B6940E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B7FD52146FBA0700B6940E /* AppDelegate.m */; };
 		18B7FD56146FBA0700B6940E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B7FD55146FBA0700B6940E /* ViewController.m */; };
 		18B7FD59146FBA0700B6940E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B7FD57146FBA0700B6940E /* ViewController.xib */; };
+		18B7FD60146FBE2600B6940E /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B7FD5F146FBE2600B6940E /* CoreImage.framework */; };
+		18B7FD9F14700A9400B6940E /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B7FD9E14700A9400B6940E /* AssetsLibrary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18A186761470C25600F4340C /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
 		18B7FD3E146FBA0700B6940E /* CoreImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B7FD42146FBA0700B6940E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		18B7FD44146FBA0700B6940E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		18B7FD46146FBA0700B6940E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		18B7FD4A146FBA0700B6940E /* CoreImage-Info.plist */ = {isa = PBXFileReference; path = "CoreImage-Info.plist"; sourceTree = "<group>"; };
+		18B7FD4A146FBA0700B6940E /* CoreImage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreImage-Info.plist"; sourceTree = "<group>"; };
 		18B7FD4C146FBA0700B6940E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		18B7FD4E146FBA0700B6940E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		18B7FD50146FBA0700B6940E /* CoreImage-Prefix.pch */ = {isa = PBXFileReference; path = "CoreImage-Prefix.pch"; sourceTree = "<group>"; };
-		18B7FD51146FBA0700B6940E /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		18B7FD50146FBA0700B6940E /* CoreImage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoreImage-Prefix.pch"; sourceTree = "<group>"; };
+		18B7FD51146FBA0700B6940E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18B7FD52146FBA0700B6940E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18B7FD54146FBA0700B6940E /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		18B7FD54146FBA0700B6940E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		18B7FD55146FBA0700B6940E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		18B7FD58146FBA0700B6940E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		18B7FD5F146FBE2600B6940E /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		18B7FD9E14700A9400B6940E /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +44,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B7FD9F14700A9400B6940E /* AssetsLibrary.framework in Frameworks */,
+				18B7FD60146FBE2600B6940E /* CoreImage.framework in Frameworks */,
 				18B7FD43146FBA0700B6940E /* UIKit.framework in Frameworks */,
 				18B7FD45146FBA0700B6940E /* Foundation.framework in Frameworks */,
 				18B7FD47146FBA0700B6940E /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +58,7 @@
 		18B7FD33146FBA0700B6940E = {
 			isa = PBXGroup;
 			children = (
+				18B7FD9E14700A9400B6940E /* AssetsLibrary.framework */,
 				18B7FD48146FBA0700B6940E /* CoreImage */,
 				18B7FD41146FBA0700B6940E /* Frameworks */,
 				18B7FD3F146FBA0700B6940E /* Products */,
@@ -67,6 +76,7 @@
 		18B7FD41146FBA0700B6940E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				18B7FD5F146FBE2600B6940E /* CoreImage.framework */,
 				18B7FD42146FBA0700B6940E /* UIKit.framework */,
 				18B7FD44146FBA0700B6940E /* Foundation.framework */,
 				18B7FD46146FBA0700B6940E /* CoreGraphics.framework */,
@@ -90,6 +100,7 @@
 		18B7FD49146FBA0700B6940E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				18A186761470C25600F4340C /* image.png */,
 				18B7FD4A146FBA0700B6940E /* CoreImage-Info.plist */,
 				18B7FD4B146FBA0700B6940E /* InfoPlist.strings */,
 				18B7FD4E146FBA0700B6940E /* main.m */,
@@ -150,6 +161,7 @@
 			files = (
 				18B7FD4D146FBA0700B6940E /* InfoPlist.strings in Resources */,
 				18B7FD59146FBA0700B6940E /* ViewController.xib in Resources */,
+				18A186771470C25600F4340C /* image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +286,7 @@
 				18B7FD5E146FBA0700B6940E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
